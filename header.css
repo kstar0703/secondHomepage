@@ -1,0 +1,19 @@
+html {font-size: 62.5%}
+* {text-align: center; list-style: none; padding-left: 0;}
+a {text-decoration: none;}
+li {text-transform: uppercase;}
+
+header { width: 100%; height: 100px; background-color: #000; display: flex; flex-flow: row nowrap; justify-content:space-around; align-items: center;}
+header a {color: #fff;}
+
+.logo {width: 25%; line-height: 100px;}   
+.logo img {width: 100%; vertical-align: middle; }
+
+.category {width: 50%; line-height: 100px;}
+.category li {display: inline; font-size:2rem; font-weight: 700; padding-right: 30px; color: #fff;}
+.category li:last-child {padding-right: 0;}
+
+.register {width: 10%; line-height: 100px;}
+.register li {display: inline; font-size:2rem; font-weight: 700; color: #fff;}
+.register li:first-child {padding-right: 20px;}
+.register li a {color: #fff;}

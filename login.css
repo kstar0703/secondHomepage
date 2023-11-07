@@ -1,0 +1,25 @@
+/* 로그인 화면 - 포지션 부모 지정, 위치 지정 (헤더에서 간격 조정) */
+.login {position: relative; margin-top: 150px;}
+.login a {color: #000;}
+
+/* 입력창 묶음 - 포지션 login의 자식 지정, 위치 지정 */
+.idPwd{
+    position: absolute; top: 100px; left : 50%; margin-left :-150px;
+}
+/* 입력창 수직으로 정렬, 크기 지정, 간격 지정, 텍스트 정렬 지정, 입력창 내부 여백 지정 */
+/* 가로가 284인 이유는 - 패딩 양쪽 7px씩 총 14px + 인풋 틀 자체가 양쪽 선 1px씩 총 2px */
+input {display: block; width: 284px; height: 30px; margin-bottom: 10px; text-align: left; padding: 0px 7px;}
+
+/* 버튼 컬러 및 크기 지정, 포지션 login의 자식 지정, 위치 지정 */
+.button { background-color: #000000; width: 300px; height: 40px; position: absolute; top: 200px;left: 50%; margin-left: -150px;}
+/* 버튼 내의 글자 컬러 및 위치 지정 - 버튼의 높이랑 똑같이 지정해서 가운데 정렬로 할수있게끔 */
+.button a {color: #ffffff; line-height: 40px;}
+
+/* 아이디 찾기 등 로그인 화면에서부터의 여백 조정 */
+.find {margin-top: 240px;}
+/* 아이디 찾기 글자 크기 지정, 가로로 정렬, 간격 조정, 선 만들기 */
+.find li { font-size: 11px; display: inline; margin-left: 7px; padding-right: 7px;  border-right: 1.5px solid #b0b0b0;}
+/* 위 리스트에서 처음꺼만 여백 없애기 */
+.find li:first-child{margin-left: 0;}
+/* 위 리스트에서 마지막꺼만 여백 및 선 없애기 */
+.find li:last-child {padding: 0px; border: none;}

@@ -1,0 +1,21 @@
+html {font-size: 62.5%}
+
+.join {margin-top: 150px; position: relative;}
+.info button {background-color: #000; color: #fff; font-size: 1rem; }
+.info {width: 330px; height: auto; position: absolute; left: 50%; margin-left: -165px; top: 70px}
+.info p {text-align: left;}
+.info p label {margin-right: 10px;}
+.info p input {width: 100px; text-align: left; padding: 3px 5px; font-size: 1rem;}
+
+select {width: 60px;}
+#birthday2 {width: 60px;}
+#address2, #address3, #phone1, #phone2, #email {width: 150px;}
+#address1, #address2, #phone1 {margin-bottom: 5px;}
+#id, #email {margin-left: 33px;}
+#pwd {margin-left: 23px;}
+#u_name, #address1 {margin-left: 42px;}
+#address2, #address3 {margin-left: 75px;}
+#birthday1, #phone1 {margin-left: 20px;}
+#phone2 {margin-left: 73px;}
+
+.joinbtn {width: 50%; height: 40px; margin-top: 30px;}
